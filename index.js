@@ -5,7 +5,7 @@ function calcularNivel(vitorias, derrotas) {
     let nivel = "";
 
     // Estrutura de decisão para determinar o nível baseado nas vitórias
-    if (vitorias < 10) {
+    if (vitorias <= 10) {
         nivel = "Ferro";
     } else if (vitorias >= 11 && vitorias <= 20) {
         nivel = "Bronze";
