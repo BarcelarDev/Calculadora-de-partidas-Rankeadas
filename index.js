@@ -20,3 +20,11 @@ function calcularNivel(vitorias, derrotas) {
     } else {
         nivel = "Imortal";
     }
+
+    // Retorno do resultado formatado
+    return `O Herói tem de saldo de ${saldoVitorias} está no nível de ${nivel}`;
+}
+
+// Exemplo de uso
+let resultado = calcularNivel(75, 20);
+console.log(resultado);
